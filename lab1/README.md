@@ -1,3 +1,5 @@
+Шаблон позаимствован https://github.com/iamm-templates/report-template. Ниже приведен оригинальный текст из README.
+
 # Шаблон отчёта (СПбПУ) [![Build Status](https://travis-ci.org/iamm-templates/report-template.svg?branch=master)](https://travis-ci.org/iamm-templates/report-template)
 В этом проекте представлен шаблон отчёта по лабораторной или курсовой работе. Это форк https://github.com/kspt-templates/report, переделанный под меня. Может, и Вам будет удобнее.
 
