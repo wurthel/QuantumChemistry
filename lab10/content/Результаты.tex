@@ -2,7 +2,7 @@
 Для расчета нормальных колебаний была добавлена опция HSSEND=.TRUE. (в поле \$STATPT\$). По-умолчанию GAMESS рассчитывает гессиан аналитически. Однако рассчитать нормальные колебания c аналитическим гессианом не получилось. Поэтому была добавлена опция METHOD=SEMINUM (в поле \$FORCE\$). С этой опцией градиент считается аналитически, а гессиан -- численно.
 
 Ниже приведены данные о колебательных модах молекулы, взятые из раздела NORMAL COORDINATE ANALYSIS IN THE HARMONIC APPROXIMATION.
-\begin{table}[]
+\begin{table}[H]
     \caption{Нормальные колебания молекулы}
     \begin{center}
     \label{tab:my-table}
@@ -44,3 +44,10 @@
     }
     \end{center}{}
 \end{table}
+
+\begin{figure}[H]
+    \centering
+    \captionsetup{justification=centering}
+    \includegraphics[scale=0.4]{fig/1}
+    \caption{ИК-спектр молекулы}
+\end{figure}
