@@ -60,19 +60,19 @@
 }
 \makeatother
 
-\counterwithin{figure}{section}
-\counterwithin{table}{section}
+\counterwithin{figure}{subsection}
+\counterwithin{table}{subsection}
 
 \titlelabel{\thetitle.\quad}
 
 % для удобного конспектирования математики
 \mathtoolsset{showonlyrefs=true}
 \theoremstyle{plain}
-\newtheorem{theorem}{Теорема}[section]
+\newtheorem{theorem}{Теорема}[subsection]
 \newtheorem{proposition}[theorem]{Утверждение}
 \theoremstyle{definition}
 \newtheorem{corollary}{Следствие}[theorem]
-\newtheorem{problem}{Задача}[section]
+\newtheorem{problem}{Задача}[subsection]
 \theoremstyle{remark}
 \newtheorem*{nonum}{Решение}
 
